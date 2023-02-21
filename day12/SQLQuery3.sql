@@ -1,0 +1,5 @@
+select top (1000) [customerID]
+,[customerContact]
+,[customerCity]
+,[customerBirthDay]
+from [Market].[dbo].[customers]
